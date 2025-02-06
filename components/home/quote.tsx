@@ -46,12 +46,11 @@ const QuoteSection = () => {
     <div className="tall:py-60 py-72 section-container">
       <h1
         ref={quoteRef}
-        className={`font-medium text-4xl md:text-5xl text-center ${
+        className={`font-medium text-2xl md:text-5xl text-center ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I have a <span className="text-strong font-bold">strong</span> obsession
-        for attention to detail.
+        As you can see with my work, I have many <span className="text-strong font-bold">Experience</span> about Web3 Game developing and Full stack
       </h1>
     </div>
   );

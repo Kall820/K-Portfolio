@@ -128,11 +128,13 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
       }`}
       ref={sectionTitleElementRef}
     >
-      <p className="section-title-sm seq">PROJECTS</p>
-      <h1 className="section-heading seq mt-2">My Works</h1>
+      <p className="section-title-sm seq">WORK EXPERIENCE</p>
+      <h1 className="section-heading seq mt-2">Web3 & Frontend & Game Projects</h1>
       <h2 className="text-2xl md:max-w-3xl w-full seq max-w-sm mt-2">
-        I have contributed in over 20+ projects ranging from Frontend
-        development, UI/UX design, Open Source, and Motion Graphics
+        I enjoy frontend development that much.<br />
+        I don't know if it's because my hobby is art, but some people say that I have a better design sense than people who have studied professional knowledge.<br />
+        I also like to design and develop myself.<br/>So I combined these skills with web3 & game and created wonderful life.<br />
+        I am very happy now! 😂
       </h2>
     </div>
   );

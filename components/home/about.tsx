@@ -63,22 +63,22 @@ const AboutSection = () => {
   }, [quoteRef, targetSection]);
 
   const renderQuotes = (): React.ReactNode => (
-    <h1 ref={quoteRef} className="font-medium text-3xl sm:text-4xl md:text-6xl">
+    <h1 ref={quoteRef} className="font-medium text-2xl sm:text-2xl md:text-2xl">
       <span
         className={`about-1 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I am a passionate UI Engineer who bridges the gap between development
-        and design.{" "}
+        I am Darko from Serbia. As a Full Stack Web3 Developer, I have attended various kinds of websites and web3/blockchain projects. Accomplished Full Stack Developer with 7+ years of experience.
+         Built and audited many smart contracts last 4 years on various networks like SOLANA, EVM, BITCOIN. Skilled in creating, testing, and deploying web applications using the latest tools and technologies.
+        {" "}
       </span>
       <span
         className={`about-2 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I take responsibility to craft a good user experience using modern
-        frontend architecture.
+         Excellent problem-solving and communication skills. Always try and keep the pace with the brand-new fields and dig into cutting-edge technologies. Feel free to ask anything, I am here to help you
       </span>
     </h1>
   );
